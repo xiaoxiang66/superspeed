@@ -57,7 +57,7 @@ echo -ne "     ${GREEN}3.${PLAIN} 电信节点测速      ${GREEN}4.${PLAIN} 联
 echo -ne "	${GREEN}6.${PLAIN} 香港节点测速"
 while :; do echo
 		read -p "     请输入数字选择: " selection
-		if [[ ! $selection =~ ^[1-5]$ ]]; then
+		if [[ ! $selection =~ ^[1-6]$ ]]; then
 				echo -ne "     ${RED}输入错误${PLAIN}, 请输入正确的数字!"
 		else
 				break   
